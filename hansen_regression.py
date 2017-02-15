@@ -41,7 +41,10 @@ def eliminate( i, ai, vi ):
     vi[i+1:] = ai[i+1:]/fi
     ai[i+1:] = 0.0
 
-
+## http://brinch-hansen.net/papers/1992a.pdf
+##Hansen, Per Brinch, "HOUSEHOLDER REDUCTION" (1990).
+##Electrical Engineering and Computer Science Technical
+##Reports. Paper 78. http://surface.syr.edu/eecs_techreports/78
 def qr_decompose( train, b ):
     a = np.c_[train,b]
     n,m = a.shape
@@ -59,6 +62,7 @@ def qr_decompose_test():
    ha = qr_decompose(a,b)
    
 
+   
 # load  data
 def main():
 
