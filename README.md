@@ -1,5 +1,5 @@
 # machine_learning
-implementation of common machine learning algorithms in random languages. 
+implementation of common machine learning algorithms in an assortment of programming languages. 
 
 ```
 hansen_regression.py 	Optimized linear regression implmented in numpy + python
