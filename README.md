@@ -18,3 +18,4 @@ Perceptrons
 
 Linear Regression
 - http://brinch-hansen.net/papers/1992a.pdf
+- http://www.economics.soton.ac.uk/staff/aldrich/yule%20gauss.pdf
